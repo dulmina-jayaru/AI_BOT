@@ -2,7 +2,7 @@ import telebot
 import mysql.connector
 
 import mysql.connector
-def app():
+def capp():
     def Ai(query):
         mydb = mysql.connector.connect(
             host="cloud.mindsdb.com",

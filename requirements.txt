@@ -1,2 +1,4 @@
-mysql.connctor
+mysql
 pyTelegramBotAPI
+gunicorn
+mysql-connector-python

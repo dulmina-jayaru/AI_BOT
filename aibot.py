@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 import mysql.connector
 
-def capp():
+def create_app():
     app = Flask(__name__)
     
     @app.route('/api/ai', methods=['GET'])

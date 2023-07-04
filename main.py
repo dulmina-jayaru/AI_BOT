@@ -25,6 +25,8 @@ def create_app():
             response = "Sorry, I couldn't find a response for that."
     
         return jsonify({response})
+
+    return app
     
 app = create_app()
 

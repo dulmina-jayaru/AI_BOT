@@ -1,3 +1,3 @@
-from aibot import capp
+from aibot import create_app
 
-app=capp()
+app=create_app()

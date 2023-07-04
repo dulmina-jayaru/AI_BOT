@@ -26,6 +26,8 @@ def create_app():
     
         return jsonify({response})
     
-    if __name__ == '__main__':
-        app.run()
+app = create_app()
+
+if __name__ == "__main__":
+    app.run()
 

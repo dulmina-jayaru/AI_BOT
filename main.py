@@ -10,8 +10,8 @@ def create_app():
     
         mydb = mysql.connector.connect(
             host="cloud.mindsdb.com",
-            user="nexinstudio@gmail.com",
-            password="HEB#YT^GV6732fdvT",
+            user="mail@gmail.com",
+            password="password",
             port="3306"
         )
     
